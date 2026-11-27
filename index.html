@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Ujian Online CBT</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #f8fafc; }
+    .frame-wrapper {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+    }
+    iframe {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      width: 100%;
+      height: calc(100% + 40px);
+      border: none;
+    }
+    @media (max-width: 640px) {
+      iframe {
+        top: -60px;
+        height: calc(100% + 60px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="frame-wrapper">
+    <iframe src="https://script.google.com/macros/s/AKfycbzBHZV6HnyZZUKDpLA8u2At-Uq8p_W64zdt0cdWSZJdggml-DbQndXkAAyJRbi_YagC/exec" allow="clipboard-read; clipboard-write"></iframe>
+  </div>
+</body>
+</html>
